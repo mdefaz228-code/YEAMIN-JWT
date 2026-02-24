@@ -1,4 +1,4 @@
 from wsgi import app
 
-# Vercel needs this
-app = app
+# This is required for Vercel
+handler = app
